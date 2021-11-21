@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>카카오</title>
+    <title>카카오 클론</title>
   </head>
   <body>
     <!-- 헤더 -->
@@ -82,224 +82,369 @@
       </div>
     </header>
     <!-- 메인 -->
-    <main>
+    <main class="main">
       <!-- 메인 헤더 -->
       <h2 class="screen_out">홈 본문</h2>
       <h2 class="main_header">
-        <em>오늘의 카카오</em>
-        <span>11월 14일 일요일 소식입니다</span>
+        <em>
+          <img src="./images/calendar.gif" alt="">
+          오늘의 카카오
+        </em>
+        <span>11월 9일 일요일 소식입니다</span>
       </h2>
       <!-- 상위 뉴스 -->
-      <section>
+      <section class="news_section">
         <div class="news_top">
           <div class="sticky_container">
             <article class="card card_big">
               <div>
-                <img src="" alt="확성기" />
+                <img src="./images/info.png" alt="확성기" />
                 <p>보도자료</p>
               </div>
               <a href="">
-                <h3></h3>
-                <img src="" alt="뉴스 사진" />
+                <h3>
+                  <p>카카오 '음mm', 크리에이터 후원 가능</p>
+                  <p>'응원하기' 도입</p>
+                </h3>
+                <img src="./images/big-card-1.png" alt="뉴스 사진" />
               </a>
-              <p class="hashtag"></p>
+              <p class="hashtag">#소셜오디오플랫폼#음mm#응원하기#카카오</p>
               <button>
-                <img src="" alt="더보기" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-three-dots-vertical"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                  />
+                </svg>
               </button>
             </article>
           </div>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>1번</p>
+              <img src="./images/info.png" alt="확성기" />
+              <p>보도자료</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>카카오엔터프라이즈,</p>
+                <p>헤이카카오에 어린이 맞춤...</p>
+              </h3>
+              <img src="./images/medium-card-1.png" alt="뉴스 사진" />
             </a>
             <p class="hashtag"></p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_small">
             <a>
               <div>
-                <img src="" alt="주식 차트" />
-                <p>2번</p>
+                <img src="./images/stock.png" alt="주식 차트" />
+                <p>주가정보</p>
               </div>
               <div class="stock">
-                <span class="stock_price"></span>
-                <span class="stock_change"></span>
+                <span class="stock_price"> 127,000 </span>
+                <span class="stock_change">2500</span>
               </div>
-              <p class="stock_date"></p>
+              <p class="stock_date">2021.11.21. 13:24PM</p>
             </a>
           </article>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>3번</p>
+              <img src="./images/info.png" alt="확성기" />
+              <p>보도자료</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>카카오브레인, 한국어</p>
+                <p>초거대 AI 언어모델...</p>
+              </h3>
+              <img src="./images/medium-card-2.png" alt="뉴스 사진" />
             </a>
-            <p class="hashtag"></p>
+            <p class="hashtag">#카카오브레인 #초거대AI</p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>4번</p>
+              <img src="./images/hand-heart.png" alt="확성기" />
+              <p>사회</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>제주다운 변화를 만드는</p>
+                <p>제주임팩트챌린지</p>
+              </h3>
+              <img src="./images/medium-card-3.png" alt="뉴스 사진" />
             </a>
             <p class="hashtag"></p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_small">
             <a>
               <div>
-                <img src="" alt="확성기" />
-                <p>5번</p>
+                <img src="./images/hand-heart.png" alt="확성기" />
+                <p class="long-p">약속과 책임</p>
               </div>
-              <p class="small_card_title"></p>
-              <p class="hashtag"></p>
+              <h4 class="long-p-title">
+                <p>카카오는 당신과 함께 더 나은</p>
+                <p>세상을 만듭니다.</p>
+              </h4>
+              <p class="hashtag">#약속과책임 #esg #소셜임팩트</p>
             </a>
           </article>
         </div>
       </section>
       <!-- 기술과 사람 -->
       <section class="card tech_human">
-        <h2>기술과 사람으로 더 나은 세상을 만듭니다.</h2>
+        <h2 class="culture-title1">기술과 사람으로 더 나은 세상을 만듭니다.</h2>
+        <article class="culture-title2">
+          <p>기술과 사람으로</p>
+          <p>더 나은 세상을 만듭니다</p>
+        </article>
         <a href="">
-          <p>카카오문화 바로가기</p>
-          <img src="" alt="바로가기" />
+          <p class="go_culture">카카오문화 바로가기
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </p>
         </a>
-        <img src="" alt="카카오문화" />
-        <img src="" alt="카카오문화" />
+        <img class="culture1" src="./images/culture.png" alt="카카오문화" />
+        <img  class="culture2" src="./images/culture2.png" alt="카카오문화" />
       </section>
 
       <!-- 하위 뉴스 -->
-      <section>
+      <section class="news_section">
         <div class="news_bottom">
           <div class="sticky_container">
             <article class="card card_big">
               <div>
-                <img src="" alt="고객센터" />
-                <p>고객센터</p>
+                <img src="./images/info.png" alt="확성기" />
+                <p>보도자료</p>
               </div>
-              <ul>
-                <li><a href="">카카오</a></li>
-                <li><a href="">다음</a></li>
-                <li><a href="">멜론</a></li>
-              </ul>
+              <a href="">
+                <h3>
+                  <p>카카오엔터, 창작 생태계 활성화 위한 '신진</p>
+                  <p>창작자 육성'에도 힘쓴다...</p>
+                </h3>
+                <img src="./images/big-card-2.jpeg" alt="뉴스 사진" />
+              </a>
+              <p class="hashtag">
+                #카카오페이지#페이지Go#스테이지On#카카오엔터테인먼트
+              </p>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-three-dots-vertical"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                  />
+                </svg>
+              </button>
             </article>
           </div>
           <article class="card card_small">
             <div>
-              <img src="" alt="확성기" />
-              <p>1번</p>
+              <img src="./images/customer-service.png" alt="확성기" />
+              <p>고객센터</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h4 class="long-p-title bgc-yellow">어떤 서비스를 도와드릴까요?</h4>
             </a>
-            <p></p>
+            <p>
+              <ul class="customer_service-ul">
+                <li>카카오</li>
+                <li>다음</li>
+                <li>멜론</li>
+              </ul>
+            </p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>2번</p>
+              <img src="./images/info.png" alt="확성기" />
+              <p>보도자료</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>카카오엔터프라이즈, 국제</p>
+                <p>보안 인증 'CSA STAR'...</p>
+              </h3>
+              <img src="./images/medium-card-4.png" alt="뉴스 사진" />
             </a>
-            <p></p>
+            <p class="hashtag">#카카오엔터프라이즈</p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>3번</p>
+              <img src="./images/info.png" alt="확성기" />
+              <p>보도자료</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>카카오엔터프라이즈-</p>
+                <p>동원디어푸드, AI기반...</p>
+              </h3>
+              <img src="./images/medium-card-5.jpeg" alt="뉴스 사진" />
             </a>
-            <p></p>
+            <p class="hashtag">#카카오엔터프라이즈#mou#ai</p>
             <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_medium">
             <div>
-              <img src="" alt="확성기" />
-              <p>4번</p>
+              <img src="./images/info.png" alt="확성기" />
+              <p>보도자료</p>
             </div>
             <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
+              <h3>
+                <p>카카오엔터프라이즈, 공교육</p>
+                <p>분야에 AI 교육/기술 지원</p>
+              </h3>
+              <img src="./images/medium-card-6.png" alt="뉴스 사진" />
             </a>
-            <p></p>
+            <p class="hashtag">#카카오엔터프라이즈#ai</p>
             <button>
-              <img src="" alt="더보기" />
-            </button>
-          </article>
-          <article class="card card_medium">
-            <div>
-              <img src="" alt="확성기" />
-              <p>5번</p>
-            </div>
-            <a href="">
-              <h3></h3>
-              <img src="" alt="뉴스 사진" />
-            </a>
-            <p></p>
-            <button>
-              <img src="" alt="더보기" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
             </button>
           </article>
           <article class="card card_small">
             <a>
-              <div>
-                <img src="" alt="자물쇠" />
-                <p>6번</p>
+              <div class="kakao-privacy">
+                <img src="./images/lock.png" alt="자물쇠" />
+                <h4 class="long-p2">카카오 프라이버시</h4>
               </div>
-              <p class="small_card_title"></p>
-              <p class="hashtag"></p>
+              <h4 class="long-p-title">
+                <p>카카오는 당신과 함께 더 나은</p>
+                <p>세상을 만듭니다.</p>
+              </h4>
+              <p class="hashtag">#카카오프라이버시</p>
             </a>
           </article>
         </div>
       </section>
       <!-- 서비스 & 인재영입 바로가기 -->
-      <section>
+      <section class="etc_section">
         <div class="etc">
-          <article class="card">
-            <p>사람과 기술로 일상을 돕는 카카오 서비스</p>
+          <article class="card go-service">
+            <p>사람과 기술로 일상을 돕는 카카오</p>
+            <p>서비스</p>
             <a href="">
-              <p>서비스 바로가기</p>
-              <img src="" alt="바로가기" />
+              <p>서비스 바로가기
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </p>
             </a>
+            <img src="./images/bulb.png" alt="바로가기">
           </article>
-          <article class="card">
-            <p>세상만사에 관심이 많다면, 당신은 이미 카카오 크루</p>
+          <article class="card go-niceguy">
+            <p>세상만사에 관심이 많다면, 당신은</p>
+            <p>이미 카카오 크루</p>
             <a href="">
-              <p>인재영입 바로가기</p>
-              <img src="" alt="바로가기" />
+              <p>인재영입 바로가기
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg>
+              </p>
             </a>
+            <img src="./images/add_friends.png" alt="바로가기">
           </article>
         </div>
         <div class="gather">
