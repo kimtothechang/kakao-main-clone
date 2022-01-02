@@ -317,10 +317,10 @@ button {
   display: grid;
   width: 100%;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fill, 297px);
+  grid-template-columns: repeat(auto-fit, 297px);
   grid-auto-rows: 192px;
-  gap: 36px;
   grid-auto-flow: dense;
+  gap: 36px;
 }
 
 .news_top .sticky_container {
@@ -446,6 +446,7 @@ button {
   border-radius: 25px;
   background-color: black;
   transform: rotate(-90deg);
+  cursor: pointer;
 }
 
 .gather_top_btn > img {
